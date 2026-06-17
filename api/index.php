@@ -1,4 +1,4 @@
-<?php include('./url.php'); ?>
+<?php include('/url.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,13 +9,13 @@
 	<title>Instagram Downloader: Effortlessly Save Your Favorite Videos</title>
 	<meta name="description" content="The Best Instagram Downloader! Easily save Instagram videos, photos, reels, and stories in HD. Just paste the link, download, and enjoy offline!">
 	<style>
-		<?php echo include './assets/css/style.css'; ?>
+		<?php echo include '/assets/css/style.css'; ?>
 	</style>
-	<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="194x194" href="./assets/images/favicon-194x194.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="./assets/images/android-chrome-192x192.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
-	<link rel="shortcut icon" href="./assets/images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="194x194" href="/assets/images/favicon-194x194.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="/assets/images/android-chrome-192x192.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+	<link rel="shortcut icon" href="/assets/images/favicon.ico">
 </head>
 
 <body>
@@ -126,7 +126,7 @@
 			</nav>
 			<h1 class="text-center">SaveInsta - Free Instagram Downloader</h1>
 			<p class="text-center">Download Videos, Stories, and Reels from Instagram</p>
-			<form class="search-form-all" id="searchForm" action="./convert" method="POST">
+			<form class="search-form-all" id="searchForm" action="/convert" method="POST">
 				<div class="form-field">
 					<label for="form-input" class="form-label">
 						<input type="text" id="form-input" name="form-input" placeholder="Insert Instagram link here" class="form-input" />
@@ -163,32 +163,32 @@
 
 			<div class="features-list mb-60">
 				<div class="features-item">
-					<img src="./assets/images/img4.jpeg" alt="instagram image" width="280" height="280">
+					<img src="/assets/images/img4.jpeg" alt="instagram image" width="280" height="280">
 					<h3>Instagram Photo Download</h3>
 					<p>SaveInsta’s Instagram Photo Downloader make downloading images from instagram made easy and download instagram images smoothly. Also this tool allows users to download image of any Instagram post.</p>
 				</div>
 				<div class="features-item">
-					<img src="./assets/images/img2.jpeg" alt="instagram image" width="280" height="280">
+					<img src="/assets/images/img2.jpeg" alt="instagram image" width="280" height="280">
 					<h3>Download Instagram Video</h3>
 					<p>With SaveInsta, you can download videos from Instagram without changing the original quality of the Instagram Video.</p>
 				</div>
 				<div class="features-item">
-					<img src="./assets/images/img5.jpeg" alt="instagram image" width="280" height="280">
+					<img src="/assets/images/img5.jpeg" alt="instagram image" width="280" height="280">
 					<h3>Download Instagram Reels Video</h3>
 					<p>Save Insta allows users to download Instagram Reels in MP4 or MP3 format on devices running Android, Windows, Linux, or iOS.</p>
 				</div>
 				<div class="features-item">
-					<img src="./assets/images/img6.jpeg" alt="instagram image" width="280" height="280">
+					<img src="/assets/images/img6.jpeg" alt="instagram image" width="280" height="280">
 					<h3>Download Instagram Story</h3>
 					<p>An Instagram story(status) is a combination of video, photo, and audio that the user creates to share their status with the world. Using Save Insta, you can download it on your device for offline watching.</p>
 				</div>
 				<div class="features-item">
-					<img src="./assets/images/img3.jpeg" alt="instagram image" width="280" height="280">
+					<img src="/assets/images/img3.jpeg" alt="instagram image" width="280" height="280">
 					<h3>Instagram Private Downloader</h3>
 					<p>This feature of SaveInsta Downloader allows you to download photos and videos that are not public without any third-party software or login.</p>
 				</div>
 				<div class="features-item">
-					<img src="./assets/images/img1.jpeg" alt="instagram image" width="280" height="280">
+					<img src="/assets/images/img1.jpeg" alt="instagram image" width="280" height="280">
 					<h3>Download IGTV Video</h3>
 					<p>IGTV is a long video format available on Instagram. SaveInsta.online supports downloading IGTV videos to your device for offline viewing when no network is available.</p>
 				</div>
@@ -245,7 +245,7 @@
 	</footer>
 
 	<script>
-		<?php echo include './assets/js/script.js'; ?>
+		<?php echo include '/assets/js/script.js'; ?>
 	</script>
 
 </body>
